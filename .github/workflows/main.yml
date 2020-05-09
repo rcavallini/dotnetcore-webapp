@@ -34,7 +34,7 @@ jobs:
           dotnet-version: ${{ env.DOTNET_VERSION }} 
       
       - name: Snyk
-          uses: snyk/actions@0.1.1
+        uses: snyk/actions@0.1.1
 
       
       # Run dotnet build and publish
